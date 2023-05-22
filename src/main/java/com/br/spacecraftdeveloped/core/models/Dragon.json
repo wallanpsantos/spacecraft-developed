@@ -1,0 +1,71 @@
+// https://api.spacexdata.com/v4/dragons
+{
+    "externalId": "5e9d058759b1ff74a7ad5f8f",
+    "name": "Dragon 1",
+    "type": "capsule",
+    "status": "active",
+    "crew_capacity": 0,
+    "orbit_duration": 24,
+    "dry_mass_kg": 4200,
+    "first_flight": "08/12/2020",
+    "heat_shield": {
+        "material": "PICA-X",
+        "size_meters": 3.6,
+        "temp_degrees": 3000,
+        "dev_partner": "NASA"
+    },
+    "thrusters": [
+        {
+            "type": "Draco",
+            "amount": 18,
+            "pods": 4,
+            "fuels": [
+                "nitrogen tetroxide",
+                "monomethylhydrazine"
+            ],
+            "thrust": {
+                "kilonewtons": 0.4
+            }
+        }
+    ],
+    "payload": {
+        "launch_mass": {
+            "kg": 6000
+        },
+        "launch_vol": {
+            "cubic_meters": 25
+        },
+        "return_mass": {
+            "kg": 3000
+        },
+        "return_vol": {
+            "cubic_meters": 11
+        },
+        "pressurized_capsule_volume": {
+            "cubic_meters": 11
+        }
+    },
+    "trunk": {
+        "volume": {
+            "cubic_meters": 14
+        },
+        "cargo": {
+            "solar_array": 2,
+            "unpressurized_cargo": true
+        }
+    },
+    "height_w_trunk": {
+        "meters": 7.2
+    },
+    "diameter": {
+        "meters": 3.7
+    },
+    "flickr_images": [
+        "https://i.imgur.com/9fWdwNv.jpg",
+        "https://live.staticflickr.com/8578/16655995541_7817565ea9_k.jpg",
+        "https://farm3.staticflickr.com/2815/32761844973_4b55b27d3c_b.jpg",
+        "https://farm9.staticflickr.com/8618/16649075267_d18cbb4342_b.jpg"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_Dragon",
+    "description": "Dragon is a reusable spacecraft developed by SpaceX, an American private space transportation company based in Hawthorne, California. Dragon is launched into space by the SpaceX Falcon 9 two-stage-to-orbit launch vehicle. The Dragon spacecraft was originally designed for human travel, but so far has only been used to deliver cargo to the International Space Station (ISS)."
+}
